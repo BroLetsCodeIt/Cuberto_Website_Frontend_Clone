@@ -1,0 +1,44 @@
+@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900);
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Inter;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#main {
+  width: 100%;
+  background-color: white;
+}
+
+#hero {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.navbar {
+  /* background-color: red; */
+  padding: 0rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar img {
+  width: 7rem;
+}
+
+.menulist {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 2rem;
+}
+.menulist h2, .menulist h1 {
+  font-size: 1rem;
+}/*# sourceMappingURL=style.css.map */
